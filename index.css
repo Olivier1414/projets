@@ -1,0 +1,620 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    padding: .20px 60px;
+    font-size: 17px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav span{
+    font-weight: bold;
+}
+
+.links a{
+    text-decoration: none;
+    color: rgb(2, 16, 16);
+    margin-left: 17px;
+    transition: 0.3s;
+}
+
+hr{
+    size: 50px;
+}
+
+.links a:hover{
+    color: rgb(5, 181, 69);
+}
+
+.milieu{
+    height: 550px;
+    background-image: url("../Projet2/projet novice/projet novice/asset/img/1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.milieu-text{
+    color: white;
+}
+
+.milieu-text h2{
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.milieu-text h1{
+    font-size: 35px;
+    margin: 15px 0;
+}
+
+.button1{
+    background: #69b43a;
+    color: white;
+    padding: 15px 40px;
+    text-decoration: none;
+    transition: 0.3s;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.button1:hover{
+    color: rgb(0, 0, 0);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+#groupe-liens1 {
+  padding: 1px 10px;
+  background: #fff;
+  padding-bottom: 10px;
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.fizarana {
+    text-align: start;
+    padding: 40px 20px;
+    margin-left: 17px;
+}
+
+.fizarana h3 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.fizarana p {
+  color: #555;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-left: 50px;
+}
+
+.morone{
+    display: inline-flex;
+    gap: 10px;
+}
+
+.nerone{
+    width: 40px;
+}
+
+.morone h3{
+    margin: 0;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #333;
+    font-size: 22px;
+    flex-grow: 0.5;
+}
+
+.milieu-2{
+    height: 450px;
+    background-image: url("../Projet2/projet novice/projet novice/asset/img/divider-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.service{
+    color: white;
+    margin-left: 150px;
+}
+
+.service span{
+    color: #69b43a;
+}
+
+.service2 span{
+    color: rgb(0, 0, 0);
+    background: #eddac1;
+}
+
+.service h2{
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+.service h3{
+    font-size: 22px;
+}
+
+.service p{
+    padding-top: 35px;
+}
+
+
+#about{
+    display: flex;
+    gap: 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: flex-start;
+}
+
+.soratra{
+    flex: 1;
+    margin-top: 20px;
+}
+
+.soratra h2{
+    color: #69b43a;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.soratra h3{
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.sltn{
+    flex: 1;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.diagra{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13.5px;
+    font-weight: bold;
+    margin-top: 5px;
+    color: #666;
+}
+
+.diagra span{
+    padding-top: 10px;
+}
+
+.gris{
+    width: 100%;
+    background: #eeeeee;
+    height: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.vert{
+    background-color: #5bda0c;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.b-80{
+    width: 80%;
+}
+
+.b-90{
+    width: 90%;
+}
+
+.b-70{
+    width: 70%;
+}
+
+.profils{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#teams{
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.teams h1{
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.team3{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.un{
+    width: 300px;
+    align-items: center;
+}
+
+.kkk{
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+
+.contour{
+    border: 2px solid #f0f0f0;
+    padding: 8px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+.bbx{
+    width: 100%;
+    height: auto;
+    border: 2px solid #f0f0f0;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+.un h2{
+    color: #0ab519;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.un h3{
+    font-size: 15px;
+    font-weight: bold;
+    color: #030101;
+    margin-bottom: 4px;
+}
+
+.un p{
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 25px;
+}   
+
+.social{
+    width: 16px; 
+    height: 16px;
+}
+
+.telephone{
+    height: 500px;
+    background-image: url("../Projet2/projet novice/projet novice/asset/img/newsletter-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.connecter{
+    color: #fff;
+}
+
+.connecter h2{
+    font-size: 32px;
+    margin: 15px 0;
+}
+
+input{
+    background: #ffffff00;
+    padding: 15px 40px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    border: 2px solid white;
+    color: white;
+}
+
+.sza{
+    background: #69b43a;
+    color: white;
+    padding: 15px 40px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+#prix h2{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+#prix h1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cadre{
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.cadre h1{
+    color: #0ab519;
+}
+
+.bbb2{
+    border: 0.5px solid rgb(172, 162, 162);
+    padding: 40px 50px;
+    height: 390px;
+    margin-top: 30px;
+    padding-top: 10px;
+    text-align: center;
+    display: inline;
+    line-height: 3.5;
+    font-size: 13px;
+}
+
+.bbb3{
+    border: 0.5px solid rgb(172, 162, 162);
+    padding: 40px 50px;
+    height: 390px;
+    margin-top: 40px;
+    padding-top: 10px;
+    text-align: center;
+    display: inline;
+    line-height: 3.5;
+    font-size: 13px;
+}
+
+.bbb4{
+    border: 0.5px solid rgb(172, 162, 162);
+    padding: 40px 40px;
+    height: 390px;
+    margin-top: 20px;
+    text-align: center;
+    display: inline;
+    line-height: 3.5;
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+.bbb5{
+    border: 0.5px solid rgb(172, 162, 162);
+    padding: 40px 50px;
+    height: 390px;
+    text-align: center;
+    line-height: 3.5;
+    font-size: 13px;
+    padding-top: 10px;
+    display: inline;
+}
+
+.you{
+    background: #69b43a;
+    color: white;
+    padding: 10px 40px;
+    text-decoration: none;
+}
+
+#jobs{
+    margin-top: 20px;
+    justify-content: center;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.tyty{
+    margin-top: 30px;
+    gap: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+.tyty p{
+    border: 1px solid #555;
+    padding: 10px 10px;
+    border-radius: 3px;
+    color: #555;
+}
+
+.xphotos{
+    margin-top: 30px;
+}
+
+.bbl{
+    width: 25%;
+    height: auto;
+    padding: 8px;    
+}
+
+#self{
+    background-image: url("projet novice/projet novice/asset/img/contact-bg.jpg");
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+}
+
+.mine{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin: 0 auto;
+}
+
+.social2{
+    width: 25px; 
+    height: 25px;
+}
+
+.social3{
+    width: 16px; 
+    height: 16px;
+}
+
+.hold{
+    margin-top: 100px;
+    line-height: 2;
+    gap: 50px;
+    font-weight: 700;
+    color: #e2e1e1;
+    margin-left: 90px;
+    width: 400px;
+}
+
+.hold h1{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.hold p{
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.hahaha{
+    margin-top: 20px;
+    display: flex;
+    gap: 40px;
+}
+
+.xlogos{
+    margin-top: 100px;
+    gap: 50px;
+    font-weight: 700;
+    color: #e2e1e1;
+    margin-left: 10px;
+    width: 250px;
+}
+
+.xlogos p{
+    margin-left: 15px;
+}
+
+.oka{
+    display: inline-flex;
+    padding-top: 30px;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.oka p{
+    padding-top: 5px;
+}
+
+.put{
+    margin-top: 90px;
+    color: #060606;
+    width: 700px;
+}
+
+.input-name{
+    margin-bottom: 20px;
+    border-radius: 3px;
+    padding: 15px;
+    width: 230px;
+    background: white;
+    margin-bottom: -4px;
+    color: #030101;
+}
+
+.input-text{
+    background: white;
+    width: 495px;
+    border-radius: 3px;
+    height: 100px;
+    text-align: start;
+    color: #030101;
+}
+
+.put p{
+    background: #ffffff;
+    color: black;
+    padding: 10px 30px;
+    width: 100px;
+    border-radius: 3px;
+    justify-content: right;
+    margin-left: 395px;
+    padding-bottom: 5px;
+}
+
+.class4{
+    background-image: url("projet novice/projet novice/asset/img/google map.png");
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+}
+
+.touts{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.copy{
+    margin-left: 100px;
+}
+
+.copy p{
+    font-size: 10px;
+    color: #555;
+}
+
+.copy h3{
+    font-weight: 200;
+    font-size: 15px;
+    color: #555;
+}
+
+.copy span{
+    color: rgb(31, 120, 254);
+}
+
+.social4{
+    width: 10px; 
+    height: 10px;
+}
+
+.reseaux{
+    display: flex;
+    gap: 30px;
+    margin-right: 100px;
+}
