@@ -35,7 +35,7 @@ hr{
 
 .milieu{
     height: 550px;
-    background-image: url("../Projet2/projet novice/projet novice/asset/img/1.jpg");
+    background-image: url("./projet novice/projet novice/asset/img/1.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -131,7 +131,7 @@ hr{
 
 .milieu-2{
     height: 450px;
-    background-image: url("../Projet2/projet novice/projet novice/asset/img/divider-bg.jpg");
+    background-image: url("./projet novice/projet novice/asset/img/divider-bg.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -314,7 +314,7 @@ hr{
 
 .telephone{
     height: 500px;
-    background-image: url("../Projet2/projet novice/projet novice/asset/img/newsletter-bg.jpg");
+    background-image: url("./projet novice/projet novice/asset/img/newsletter-bg.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -465,7 +465,7 @@ input{
 }
 
 #self{
-    background-image: url("projet novice/projet novice/asset/img/contact-bg.jpg");
+    background-image: url("./projet novice/projet novice/asset/img/contact-bg.jpg");
     height: 450px;
     background-size: cover;
     background-position: center;
@@ -576,7 +576,7 @@ input{
 }
 
 .class4{
-    background-image: url("projet novice/projet novice/asset/img/google map.png");
+    background-image: url("./projet novice/projet novice/asset/img/google map.png");
     height: 450px;
     background-size: cover;
     background-position: center;
