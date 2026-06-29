@@ -620,8 +620,103 @@ input{
 }
 
 @media (max-width: 768px) {
+
+    header {
+        padding: 15px;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
     .container {
+        width: 95%;
         grid-template-columns: 1fr;
+    }
+
+    #about {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .sltn {
+        margin-left: 0;
+    }
+
+    .service {
+        margin: 20px;
+        text-align: center;
+    }
+
+    .profils {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cadre {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mine {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .hold,
+    .xlogos,
+    .put {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .input-name,
+    .input-text {
+        width: 100%;
+    }
+
+    .put p {
+        margin-left: 0;
+    }
+
+    .xphotos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bbl {
         width: 90%;
+    }
+
+    .button2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .xmail {
+        width: 90%;
+        margin-right: 0;
+    }
+
+    .touts {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .copy,
+    .reseaux {
+        margin: 0;
     }
 }
