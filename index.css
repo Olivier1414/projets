@@ -621,6 +621,7 @@ input{
 
 @media (max-width: 768px) {
     .container {
-        flex-direction: colum;
+        grid-template-columns: 1fr;
+        width: 90%;
     }
 }
